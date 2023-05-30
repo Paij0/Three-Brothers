@@ -1,0 +1,100 @@
+/* Reset margin dan padding pada elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eff4f4;
+    color: #333;
+  }
+  
+  /* Gaya Navbar */
+  nav {
+    background: linear-gradient(to right, #da00c4, #7831fc);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .logo a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #888;
+  }
+
+  .menu2 {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu2 li {
+    margin-right: 20px;
+  }
+  
+  .menu2 li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu2 li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu2 li a:hover {
+    color: #888;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 40px 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+ 
+
+  nav2 {
+    background: rgb(0, 0, 0);
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
